@@ -1,0 +1,39 @@
+body {
+	position: absolute;
+	margin: auto;
+	width:90%;
+	left:5%;
+
+}
+
+#line {
+	border-bottom: 10px solid #1fa8b7; 
+	border-top: 10px solid #1fa8b7;
+	position:relative;
+	top:20px;
+}
+
+#intro {
+	text-align: center;
+}
+
+#buttons {
+	list-style-type: none;
+
+
+}
+
+.link {
+	float: left;
+	position:relative;
+	left: calc(50% - 180px);
+	bottom: 22px;
+    width: 80px;
+    height: 20px;
+    margin: 1px;
+    border: 1px solid #222222;
+    text-decoration:  none;
+  	font-weight:      bold;
+  	background-color: #1fa8b7;
+  	color:            black;
+}
