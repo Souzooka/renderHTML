@@ -1,8 +1,8 @@
 body {
 	position: absolute;
 	margin: auto;
-	width:90%;
-	left:5%;
+	width:80%;
+	left:10%;
 
 }
 
@@ -13,27 +13,116 @@ body {
 	top:20px;
 }
 
-#intro {
+
+.link {
+	display: inline;
+    height: 20px;
+    padding: 2px;
+    margin: 2px;
+    box-sizing: content-box;
+	list-style-type: none;
+    border: 2px solid grey;
+  	background-color: #1fa8b7;
+}
+
+#bigcat {
+	display: block;
+	position: relative;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	width:200px;
+	float:right;
+	margin: auto;
+}
+
+header {
 	text-align: center;
 }
 
-#buttons {
-	list-style-type: none;
-
-
+#slayer p{
+	padding-left: 20px;
 }
 
-.link {
-	float: left;
-	position:relative;
-	left: calc(50% - 180px);
-	bottom: 22px;
-    width: 80px;
-    height: 20px;
-    margin: 1px;
-    border: 1px solid #222222;
-    text-decoration:  none;
-  	font-weight:      bold;
+#slayer h2{
+	padding-left: 20px;
+	color: white;
+}
+
+#slayer {
+	margin-top:20px;
+    border: 2px solid grey;
+  	background-color: AliceBlue;
+}
+
+#slayerhead {
+	padding-top:10px;
   	background-color: #1fa8b7;
-  	color:            black;
+  	border-bottom: 2px solid grey; 
+}
+
+#fooseball p {
+	padding-left:20px;
+}
+#fooseball h2 {
+	padding-left:20px;
+}
+#fooseball table {
+	padding-left:20px;
+	border:2px;
+	border-spacing:5px;
+	border-collapse: separate;
+}
+
+#fooseballhead {
+	padding-top:10px;
+  	background-color: LightGrey ;
+  	border-bottom: 2px solid grey; 
+}
+
+#fooseball {
+	margin-top:20px;
+    border: 2px solid grey;
+  	background-color: white;
+  	padding-bottom:10px;
+}
+
+#todo p {
+	padding-left:20px;
+}
+#todo h2 {
+	padding-left:20px;
+}
+
+#todohead {
+	padding-top:10px;
+  	background-color: LightGrey ;
+  	border-bottom: 2px solid grey; 
+}
+
+#todo {
+	margin-top:20px;
+    border: 2px solid grey;
+  	background-color: white;
+  	padding-bottom:10px;
+}
+
+#contactme h2 {
+	padding-left:20px;
+}
+
+#contactmehead {
+	position:relative;
+	right:20px;
+	padding-top:10px;
+  	background-color: LightGrey ;
+  	border-bottom: 2px solid grey; 
+}
+
+#contactme {
+	padding-left:20px;
+	margin-top:20px;
+    border: 2px solid grey;
+  	background-color: white;
+  	padding-bottom:10px;
 }
