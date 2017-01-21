@@ -3,6 +3,23 @@
 <head>
 <link href="css/styles.css" rel="stylesheet" media="screen">
 	<title>Wray Farias, Ace Designer to the Stars</title>
+	<script>
+	window.onload = function() {
+
+	var names = ["Wray Farias", "Leigh Taro", "Shekhar Sander", "Willahelm Darragh"];
+
+	var randomIndex = Math.floor(Math.random() * 3.99);
+
+	console.log(randomIndex);
+
+	intro.innerHTML = names[randomIndex] + " - Web Developer";
+
+	document.title =  names[randomIndex] + " - Web Developer";
+
+	console.log(window.history);
+
+	};
+	</script>
 </head>
 <body>
 <img src="css/img/cat.jpg" width="30">
@@ -12,7 +29,7 @@
 
 <ul >
 
-<li class="link" id="Home"><a href="http://www.google.com">Home</a></li>
+<li href="http://www.google.com" class="link" id="Home"><a href="http://www.google.com">Home</a></li>
 <li class="link"><a href="http://www.google.com">About me</a></li>
 <li class="link"><a href="http://www.google.com">Blog</a></li>
 <li class="link"><a href="http://www.google.com">Contact me</a></li>
